@@ -1,0 +1,27 @@
+<Galleries>
+<Gallery nameu="Recent Templates" name="Recent Templates">
+<Templates name="Man Suit" nameu="Man Suit" solution="" icon="fashion\Man.bmp" description="Contains hundreds of man suits." baseon="">
+<Template name="Man Suit" nameu="Man Suit" path="\library\Dress design\Man suit.edt"/>
+</Templates>
+<Templates name="Jacobson Use Case" nameu="Jacobson Use Case" solution="" icon="software\jackbson.bmp" description="Contains special shapes and settings for creating Jacobson&apos;s use case diagrams." baseon="">
+<Template name="Arrow Shapes" nameu="Arrow Shapes" path="\library\BasicShape\arrow.edt"/>
+<Template name="Callouts" nameu="Callouts" path="\library\BasicShape\Callouts.edt"/>
+<Template name="Jacobson Use Case" nameu="Jacobson Use Case" path="\library\Software\Jacobson Use Case.edt"/>
+</Templates>
+<Templates name="UML Model Diagram" nameu="UML Model Diagram" solution="" icon="software\uml.bmp" description="Contains special shapes and settings for creating UML mdoels and static structure (class and object), use case, collaboration, sequence, component, deployment, activity, using the UML notation." baseon="">
+<Template name="UML Activity Diagram" nameu="UML Activity Diagram" path="\library\Software\UML-Activity.edt"/>
+<Template name="UML Class Diagram" nameu="UML Class Diagram" path="\library\Software\UML-Class.edt"/>
+<Template name="UML Collaboration Diagram" nameu="UML Collaboration Diagram" path="\library\Software\UML-Collaboration.edt"/>
+<Template name="UML Component Diagram" nameu="UML Component Diagram" path="\library\Software\UML-Component.edt"/>
+<Template name="UML Deployment Diagram" nameu="UML Deployment Diagram" path="\library\Software\UML-Deployment.edt"/>
+<Template name="UML Sequence Diagram" nameu="UML Sequence Diagram" path="\library\Software\UML-Sequence.edt"/>
+<Template name="UML Statechart Diagram" nameu="UML Statechart Diagram" path="\library\Software\UML-Statechart.edt"/>
+<Template name="UML Use Case Diagram" nameu="UML Use Case Diagram" path="\library\Software\UML-UseCase.edt"/>
+<Template name="Relationship" nameu="Relationship" path="\library\Software\Relationship.edt"/>
+</Templates>
+<Templates name="Chen ERD" nameu="Chen ERD" solution="" icon="database\chenerd.bmp" description="Contains special shapes and setting for creating entity relationship diagrams based on the Chen ERD notation." baseon="">
+<Template name="Chen ERD" nameu="Chen ERD" path="\library\ERD and Database\Chen ERD.edt"/>
+<Template name="Relationship" nameu="Relationship" path="\library\Software\Relationship.edt"/>
+</Templates>
+</Gallery>
+</Galleries>

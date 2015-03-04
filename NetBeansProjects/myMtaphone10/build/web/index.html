@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>MUSEEK</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+             function isNull(id)
+             {
+                 var txt = document.myfrm.search_query;
+                 if(txt.value != "" && txt.value != '\n' )
+                 {
+                     document.getElementById(id).innerHTML="";
+                //     alert("m here1");
+                     return true;
+                 }
+                 else
+                 {
+                     document.getElementById(id).innerHTML="Please enter a valid query!!";
+                  //   alert("m here 2");
+                     return false;
+                 }
+                     
+                 
+             }
+            
+        </script>
+    </head>
+    <body>
+
+        <!-- removing container  -->
+         <div id="container_front_page"> 
+             <a href="help.html"><div id="help" align="right"> How to use?</div></a>&nbsp;&nbsp;&nbsp;
+            <div id="header">
+                <div id="title">
+                    <div id="sitetitle">MUSEEK</div>
+                   
+                </div>
+            </div>
+            
+        <div id="menu_front_page">
+        </div>
+        
+        <div id="content">
+            <div id="left_column">
+            </div>
+        </div>
+        <div>
+    
+            <br>
+            </br>
+                <br/>
+                <br/>
+                <form action="result.jsp" method="get" name="myfrm" onsubmit="return isNull('form_error')"> 
+                <input type="text" name="search_query" id="search_input" />&nbsp;&nbsp;&nbsp;
+                <input type="submit" name="submit" value="Search" id="search_button"/>
+                <br/>
+                <br/>
+            <p align="center">   <span id="form_error"></span></p>
+            </form>
+            <br></br>  
+            <br></br>  
+            <br></br>  
+            
+        </div>
+        <div id="footer_front_page">  
+            Project By: Ankita Agrawal | Avirek Ghatia | Bhavya Dwivedi<br/>
+            Computer Engineering Department
+        </div>
+        </div>
+    </body>
+</html>

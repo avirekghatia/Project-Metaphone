@@ -1,0 +1,644 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+body {
+	margin:0;
+	padding:0;
+        width:100%;
+        height: 100%;
+	line-height: 1.5em;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background: url(images/music-notes-52-song.jpg);
+}
+
+
+span{
+   
+        color: #400000;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 20px;
+        
+
+}
+
+#result
+{
+        color: #000000;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 25px;       
+}
+
+#transbox
+{
+      width:400px;
+  height:180px;
+  margin:30px 50px;
+  background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60)
+}
+
+
+
+
+h1 {
+	margin: 0 0 25px 0;
+	padding: 10px 0 10px 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffc601;
+	background: #000000;
+	border-bottom: 1px solid #b4a08a;
+}
+
+h2 {
+	width: 235px;
+	height: 25px;
+	padding: 15px 0 0 35px;
+	margin: 0 0 25px -10px;
+	font-size: 16px;
+	color: #6c5b4c;
+	background: url(images/left_heading_background.gif) no-repeat;
+}
+
+h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffc601;	
+}
+
+h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 12px;
+	color: #999999;	
+}
+
+.rantsection {
+	height: 13px;
+	margin-bottom: 10px;
+}
+
+.rantsection img {
+	float: left;
+	height: 13px;
+	width: 13px;
+	border: 0px;
+	margin-right: 5px;
+}
+
+a:link, a:visited { color: #999999; text-decoration: none;} 
+a:active, a:hover { color: #999999; text-decoration: underline;}
+
+.more_button a{
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 60px;
+	padding: 1px 0;
+	margin-bottom: 5px; 
+	background: #6c5b4c;
+	border-bottom: 1px solid #a59180;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.download_button a{
+	float: right;
+	text-align: center;
+	width: 65px;
+	padding: 1px 0;
+	background: #6c5b4c;
+	border-bottom: 1px solid #a59180;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+img {
+	border: 1px solid #6c5b4c;
+}
+
+
+/* ----- Form ----- */
+.form_row{
+	margin-bottom: 3px;
+}
+
+form{
+	margin: 0;
+	padding: 0;
+	text-align: center;	
+}
+
+label {
+	margin-right: 10px;
+}
+/*
+input{
+	width: 200px;
+	height: 18px;
+	padding: 1px 0;
+	line-height: normal;
+	color: #99836c;
+	border: 1px solid #99836c;
+	background: #400a0a;
+}*/
+
+
+select{
+	color: #99836c;
+}
+
+.button{
+	width: 60px;
+	line-height: normal;
+	margin: 0;
+	height: 23px;
+}
+/* End of Form */
+
+
+#container_front_page {
+	margin: 100px 15% 10% 15%;
+	width: 970px;
+        height: 100%;
+	/*background: url(images/main_background.gif) repeat-y; */
+       //  background-color:#ffffff;
+        background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.7;
+  //position: absolute;
+  filter:alpha(opacity=60);
+}
+
+#container_result_page {
+	margin: 50px 10% 10% 10%;
+	width: 80%;
+        height: 100%;
+	/*background: url(images/main_background.gif) repeat-y; */
+       //  background-color:#ffffff;
+        background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.7;
+  //position: absolute;
+  
+  filter:alpha(opacity=60);
+}
+
+/*------------ Header --------------- */
+
+#header {
+	float: left;
+	width: 100%;
+//	padding: 0 35px;
+	padding: 0 8%;
+	margin: 15px 0 10px 0;
+}
+
+#title {
+	float: left;
+//	width: 300px;
+width: 30%;
+}	
+
+#title1 {
+	float: left;
+	width: 300px;
+//width: 30%;
+}	
+
+
+
+
+#search
+{
+	text-align: center;
+}
+
+#sitetitle {
+	padding: 30px 0 10px 0;
+	// font-size: 6.0em;
+font-size: 600%;
+       font-weight: bold;
+	font-family:"Vivaldi";
+      //  font-family:"Edwardian Script ITC";
+	//color: #FF9933;
+        color: #380000;
+}
+
+
+#sitetitle1 {
+    padding: 30px 0 10px 0;
+	font-size: 6.0em;
+	font-weight: bold;
+	font-family:"Vivaldi";
+	//color: #FF9933;
+        color: #380000;
+}
+
+
+#help{
+    padding: 10px 0 0 0;
+    font-size: 1.5em;
+	font-weight: bold;
+	font-family:"times-new-roman";
+	//color: #FF9933;
+        color: #380000;
+       
+}
+
+#text {
+    
+    padding: 10px 0 10px 0;
+    font-size: 2.0em;
+	font-weight: bold;
+	font-family:"times-new-roman";
+	//color: #FF9933;
+        color: #380000;
+}
+
+
+#help_content{
+    padding: 5% 5% 5% 5%;
+    font-size: 1.5em;
+    white-space: pre-line;
+	font-weight: bold;
+	font-family:"bookman old style";
+	//color: #FF9933;
+        text-align:justify;
+text-justify:inter-word;
+line-height: 1.5em;
+        color: #380000;
+       
+}
+
+#sitetitle_result_page {
+	
+	padding: 30px 0 10px 0;
+	// font-size: 6.0em;
+font-size: 600%;
+       font-weight: bold;
+	font-family:"Vivaldi";
+      //  font-family:"Edwardian Script ITC";
+	//color: #FF9933;
+        color: #380000;
+        
+        
+
+}
+#sitetitle span{
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+
+#search_input{
+    
+	width: 50%;
+	height: 25px;
+	padding: 1px 0;
+	line-height: normal;
+	color: #99836c;
+	border: 1px solid #99836c;
+	background: #400a0a;
+        color: #ffffff;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 20px;
+        
+}
+
+#error_msg{
+    
+	width: 500px;
+	height: 25px;
+	padding: 1px 0;
+	line-height: normal;
+	color: #99836c;
+	border: 1px solid #99836c;
+	background: #400a0a;
+        color: #ffffff;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 20px;
+        
+}
+#search_button
+{
+        width: 70px;
+    	height: 25px;
+	padding: 1px 0;
+	line-height: normal;
+	color: #99836c;
+	border: 1px solid #99836c;
+	background: #400a0a;
+        color: #ffffff;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 20px;
+    
+}
+
+#search_input_result_page{
+    
+	width: 30%;
+	height: 25px;
+	padding: 1px 0;
+        float :center;
+	line-height: normal;
+	color: #99836c;
+	border: 1px solid #99836c;
+	background: #400a0a;
+        color: #ffffff;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 20px;
+        
+}
+
+#search_button_result_page
+{
+        width: 70px;
+    	height: 25px;
+	padding: 1px 0;
+	line-height: normal;
+	color: #99836c;
+	border: 1px solid #99836c;
+	background: #400a0a;
+        color: #ffffff;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 20px;
+    
+}
+
+
+#login {
+	float: right;
+	margin-top: 25px;
+	width: 300px;
+}
+/* -------------- End of Header------------------ */
+
+/* --------- Banner ---------- */
+#banner {
+	clear: both;
+	width: 970px;
+	height: 256px;
+	background: url(images/banner.jpg) no-repeat;
+}
+
+#banner_text {
+	padding: 60px 0 0 225px;
+	width: 550px;
+}
+
+#banner_title{
+	margin: 0 0 25px 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffc601;
+}
+
+#banner_text p{
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+
+/* --------- End of Banner ---------- */
+
+/*--- Menu ---*/
+#menu_front_page{
+	float: left;
+	width: 970px;
+	height: 51px;
+       margin-left: 6%;
+	background: url(images/menu_background.gif) no-repeat;
+}
+#menu_result_page{
+	float: left;
+      //  alignment-adjust: central;
+	width: 90%;
+	height: 51px;
+	 margin-left: 6%;
+        background: url(images/menu_background.gif) no-repeat;
+}
+#menu ul {
+	float: left;
+	margin: 0;
+	padding: 10px 0 0 40px;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	float: left;
+	width: 140px;
+	height: 20px;
+	margin-top: 10px;
+	padding: 0;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+#menu ul li .lastmenu{
+	border-right: none;
+}
+
+#menu li a:hover, #menu li .current{
+	color: #FFCC33;
+}
+/*--- End of Menu ---*/
+
+/*--- Content ---*/
+#content {
+	float: left;
+	margin: 0;
+	padding: 0 10px;
+	width: 950px;
+}
+
+/*--- Left Column---*/
+#left_column {
+	float: center;
+	margin: 65px 0px 50px 100px;
+	padding: 0px;
+	width: 40%;
+}
+
+.left_col_box {
+	margin: 0 0 25px 25px;
+	color: #AAA;	
+}
+
+.blog_box {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #220404;
+}
+
+.blog_box h3 a{
+	font-size: 20px;
+	color: #400000;	
+	
+}
+
+.blog_box span{
+	color: #99836c;
+}
+/*--- End of Left Column---*/
+
+/*--- Right Column---*/
+#right_column {
+	float: right;
+	margin: 25px 25px 0 0;
+	padding: 0;
+	width: 60%;
+}
+
+.right_panel_fullwidth {
+	float: left;
+	width: 650px;
+	padding: 0 0 25px 0;
+}
+
+.right_panel_fullwidth img{
+	float: left;
+	margin: 3px 10px 0 0;
+}
+
+.right_panel_fullwidth_content {
+	float: left;
+	width: 620px;
+	padding: 0 15px 25px 15px;
+}
+
+.right_panel_fullwidth_content p{
+	text-align: justify;
+}
+
+#new_released_section {
+	float: left;
+	width: 650px;
+	margin: 0 0 30px 0;
+}
+
+.new_released_box {
+	float: left;
+	width: 180px;
+	margin: 0 10px 0 15px;	
+}
+
+.new_released_box img{
+	margin-bottom: 5px;
+}
+
+#news_section {
+	float: left;
+	width: 310px;
+	margin: 0 25px 0 0;
+}
+
+.news_box {
+	float: left;
+	width: 280px;
+	margin: 0 15px 25px 15px;
+}
+
+.news_box img{
+	float: left;
+	width: 110px;
+	margin: 3px 10px 0 0;
+	border: 1px solid #333333;
+}
+
+.news_box p{
+	margin: 0;
+	padding: 0;
+}
+
+#topdownload_section {
+	float: right;
+	width: 300px;
+	padding: 0;
+	margin: 0;
+	background: #99836c;
+}
+
+.topdownload_box {
+	float: left;
+	width: 270px;
+	padding-bottom: 5px;
+	margin: 0 15px 10px 15px;
+	color: #24211d;
+	font-weight: bold;
+	border-bottom: 1px solid #6b5946;
+	
+}
+
+* html .topdownload_box {
+	margin: 0 15px 10px 7px;
+}
+
+.topdownload_box span{
+	font-weight: normal;
+}
+
+.title_singer{
+	float: left;
+	width: 200px;
+}
+/*--- End of Right Column---*/
+/*--- End of Content ---*/
+
+/* ----- Footer ----- */
+#footer_front_page {
+	clear: both;
+	//padding: 15px 0;
+	padding: 2% 2%;
+	
+        width: 94%;
+	margin: 0 10px;
+	text-align: center;
+	color: #ffffff;
+	background: #6c5b4c;
+	text-align: center;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 12px;
+}
+
+#footer_result_page {
+	clear: both;
+//	padding: 15px 0;
+	padding: 2% 0;
+
+width: 98%;
+	margin: 0 10px;
+	text-align: center;
+	color: #ffffff;
+	background: #6c5b4c;
+	text-align: center;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 12px;
+}
+
+
+#footer a{
+	color: #000000;
+}
+
+#footer a:hover{
+	color: #cccc66;
+}
+/* ----- End of Footer ----- */

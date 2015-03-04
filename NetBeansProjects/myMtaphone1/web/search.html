@@ -1,0 +1,83 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+         body{
+            background: url(images/b3.jpg) no-repeat center center fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+}
+input[type="text"] {
+    font-family: calibri;
+    font-size: 15px;
+    margin-left: 195px;
+    speak: normal;
+    width: 500px;
+    height: 35px;
+}
+
+button {
+    background-image: url(images/img.png);
+
+    margin-left: 415px;
+}
+
+
+        </style>
+       <script type="text/javascript">
+             function isNull(id)
+             {
+                 var txt = document.myfrm.search_query;
+                 if(txt.value != "" && txt.value != '\n' )
+                 {
+                     document.getElementById(id).innerHTML="";
+                //     alert("m here1");
+                     return true;
+                 }
+                 else
+                 {
+                     document.getElementById(id).innerHTML="Please enter a valid query!!";
+                  //   alert("m here 2");
+                     return false;
+                 }
+
+
+             }
+
+        </script>
+    </head>
+  <body>
+                          <p style="margin-top: 200px">
+                          <a href="index.html"><img src="images\14.png" width="330px" height="70px" style="margin-left: 280px" >
+                          </a>
+                          </p>
+
+                          <p style="margin-top: 28px">
+                          <img src="images\15.png" width="150px" style="margin-left: 375px" >
+                          </p>
+
+                          <p style="margin-top: 23px">
+                          <img src="images\16.png" width="300px" style="margin-left: 295px" >
+                          </p>
+
+                          <form action="result1.jsp" method="get" name="myfrm" onsubmit="return isNull('form_error')">
+                          
+                          <p style="margin-top: 40px">
+                                <input type="text" name="search_query" class="form-control" placeholder="Enter lyrics to search." spellcheck="false" >
+                          </p>
+                          <p style="margin-top: 20px">
+                              <button type="submit" name="submit" class="btn btn-default">Search</button>
+                          </p>
+                          <p align="center">   <span id="form_error"></span></p>
+                          </form>
+
+  </body>
+</html>

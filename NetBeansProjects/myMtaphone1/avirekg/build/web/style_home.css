@@ -1,0 +1,22 @@
+body{
+            background: url(images/b21.jpg) no-repeat center center fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            min-width: 1000px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: Calibri;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+#img_arrow{
+    position: fixed;
+    height: 36px;
+    width: 36px;
+    margin-left: 92.5%;
+    margin-top: 42.5%;
+}
