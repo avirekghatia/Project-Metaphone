@@ -1,0 +1,42 @@
+body{
+            background-color: white;
+}
+
+#img_top{
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 20%;
+   background-color: cadetblue;
+}
+
+#topline{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+}
+
+#header{
+    height: 20px;
+    width: 90%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #848484;
+}
+
+.navigation_bars{
+    height: 30px;
+    color: #000000;
+}
+
+.navigation_bars > li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation_bars > li > a{
+    text-decoration: blink;
+}

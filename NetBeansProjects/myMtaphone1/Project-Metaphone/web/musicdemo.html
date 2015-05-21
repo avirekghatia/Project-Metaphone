@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
+        
+        
+        <script type="text/javascript">
+            function isNull(id)
+            {
+                var txt = document.frm2.search_query;
+                if (txt.value != "" && txt.value != '\n')
+                {
+                    document.getElementById(id).innerHTML = "";
+                    //     alert("m here1");
+                    return true;
+                }
+                else
+                {
+                    document.getElementById(id).innerHTML = "Please enter a valid query!!";
+                    //    alert("m here 2");
+                    return false;
+                }
+            }
+
+function updatesource()
+{
+    var audio = document.getElementById('au1');
+    audio.setAttribute('src','songs/Pardes04.mp3');
+
+}
+        </script>
+        
+        
+    </head>        
+<body>
+<!--
+<audio controls>
+<!--  <source src="horse.ogg" type="audio/ogg">  
+  <source src="[Songs.PK] Cocktail - 02 - Daaru Desi.mp3.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+-->
+<input type="button" onclick="updatesource()" />
+
+
+
+<!--<audio  id="au1" src="songs/Pardes04.mp3" controls preload></audio> -->
+
+<audio  id="au1" src="" controls preload></audio>
+
+</body>
+</html>
